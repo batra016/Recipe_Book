@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom"; 
 
 import Search from './components/Hero/Search';
 import Hero from './components/Hero/Hero';
@@ -11,7 +11,7 @@ import Footer from "./components/Hero/Footer";
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState("All");
-  const cardsRef = useRef(null); 
+  const cardsRef = useRef(null);
 
   return (
     <RecipeProvider>
